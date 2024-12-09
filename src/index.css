@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--primary-purple);
+  color: var(--white);
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.6; /* Improved readability */
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Theme Variables */
+:root {
+  --primary-green: #069067;
+  --primary-purple: #6842EF;
+  --primary-purple-shade: #8161f4;
+  --black: #000;
+  --white: #fff;
+  --shadow-color: rgba(227, 227, 227, 0.75);
+}
+
+/* Container */
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+/* Chart Styling */
+.chart {
+  width: 95vw;
+  margin: 2rem auto; /* Centering the chart with auto margins */
+  box-shadow: 0px 4px 20px var(--shadow-color); /* Subtle shadow */
+  border-radius: .5rem;
+  background-color: var(--white); /* White background for charts */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.chart h2 {
+  margin: 1rem 0; /* Consistent spacing around headings */
+  text-align: center; /* Centered text for better appearance */
+  opacity: .7; /* Slightly more visible */
+  color: var(--black); /* Darker color for better readability */
+}
+
+.chart img {
+  width: 80%; /* Responsive image size */
+  max-width: 600px; /* Maximum width for images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the image */
+  display: block; /* Block display for centering */
+}
+
+.no-transaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px; /* Fixed height for alignment */
+  color: var(--black);
+  font-size: 1.2rem; /* Increase font size for emphasis */
+  text-align: center; /* Centered text for better appearance */
+}
+
+.line-chart {
+  width: 95vw;
+  margin: 2rem auto; /* Centering the line chart */
+  box-shadow: 0px 4px 20px var(--shadow-color); /* Consistent shadow */
+  border-radius: .5rem;
+  background-color: var(--white); /* White background for line chart */
+  padding: 1rem; /* Padding for better spacing */
+}

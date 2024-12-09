@@ -1,0 +1,26 @@
+/* src/components/WalletConnect.css */
+.connect-wallet-button {
+    background-color: #7a6ee9; /* Green background */
+    color: rgb(8, 1, 1); /* White text */
+    padding: 10px 20px; /* Top and bottom padding, left and right padding */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Transition for hover effect */
+    margin: 20px; /* Add some margin around the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Initial shadow */
+  }
+  
+  .connect-wallet-button:hover {
+    background-color: #d4ff13; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+  }
+  
+  .connect-wallet-button:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Blue outline on focus */
+    transform: scale(1.05); /* Slightly enlarge the button on focus */
+  }
+  
